@@ -9,3 +9,9 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+def p_times (statement, num)
+  num.times{puts statement}
+end
+
+p_times("Cara is Awesome", 3)

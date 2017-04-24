@@ -9,3 +9,9 @@
 #
 # > 120
 #
+
+def factorial(num)
+  puts num.downto(1).reduce(:*)
+end
+
+factorial(5)
