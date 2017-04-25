@@ -14,4 +14,4 @@ def letter_count(word)
   puts counts
 end
 
-letter_count('banana')
+letter_count('psychedelicjoy')
